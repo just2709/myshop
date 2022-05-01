@@ -13,10 +13,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='*' element={<Notfound />} />
-
           <Route path='/*' element={<ProductFeature />}></Route>
           <Route path='/cart' element={<CartFeature />}></Route>
+          <Route path='*' element={<Notfound />} />
         </Routes>
       </Router>
     </>
