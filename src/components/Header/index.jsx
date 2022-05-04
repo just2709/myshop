@@ -33,7 +33,7 @@ function Header(props) {
               className={(navData) =>
                 navData.isActive ? "border-b-2 border-cyan-400" : ""
               }
-              to='/'>
+              to='/myshop'>
               Trang chủ
             </NavLink>
           </li>
